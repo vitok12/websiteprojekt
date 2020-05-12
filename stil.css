@@ -1,0 +1,290 @@
+body
+{
+    background-color: black;
+    text-align: justify;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+ul.izbornik1
+{
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    width: 100%;
+}
+ul.izbornik1 li
+{
+    float: left;
+}
+ul.izbornik1 li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.izbornik1 li a:hover 
+{
+    background-color: #000000;
+}
+.aktivno
+{
+    background-color: #a52222;
+}
+.start
+{
+    background-image: url("black.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top:70px
+}
+a.vrh
+{
+    color: white;
+    background-color:#333;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    text-align: center;
+}
+a.vrh:hover
+{
+    background-color: #a52222;
+}
+h1.naslov
+{   
+    text-align: center;
+    color: rgb(225, 94, 3);
+    font-size: 200px;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+/*index.html*/
+body.index
+{
+    background-image: url("naslovnica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*music.html*/
+div.galerija 
+{
+    margin: 14px;
+    border: 1px solid #000000;
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+div.galerija:hover 
+{
+    border: 1px solid #777;
+}
+div.galerija img 
+{
+    width: 100%;
+    height: 290px;
+}
+pre.lyrics
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.pjesme
+{
+    font-size: 20px;
+    color: white;
+}
+div.opis 
+{
+    height: 40px;
+    padding: 10px ;
+    text-align: center;
+    background-color: #333;
+}
+span.naslov
+{
+    margin-left: 90px;
+    font-size: 40px;
+    color: rgb(24, 24, 24);
+}
+span.naslov1
+{
+    font-size: 40px;
+}
+span.naslov2
+{
+    font-size: 40px;
+    color: rgb(24, 24, 24);
+}
+div.itd
+{
+    
+    font-size: 90px;
+}
+
+
+/*contact.html*/
+img.icon
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+.mreze
+{   
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+/*gallery.html*/
+img.gal_mapa
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nat1
+{
+    text-align: center;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+.ga{
+    width: fit-content;
+    margin: 20px auto;
+    height: auto;
+    
+}
+.slika
+{
+    width: calc(33% - 6px);
+    overflow:hidden;
+    height: fit-content;
+    margin:3px;
+    padding: 0;
+    display:block;
+    position:relative;
+    float:left;
+    z-index: auto;
+}
+img.gal
+{
+    width: 100%;
+    transition-duration: .3s;
+    max-width: 100%;
+    display:block;
+    overflow:hidden;
+    cursor:pointer;
+
+}
+.title
+{
+    position:absolute;
+    display:block;
+    cursor:pointer;
+    top: 35%;
+    display: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 5px 10px black;
+    transition-duration: .3s;
+}
+.text
+{
+    position:absolute;
+    top: 70%;
+    cursor:pointer;
+    max-width: 80%;
+    text-align:center;
+    left: 50%;
+    text-shadow: 1px 5px 10px black;
+    font-size: 1em;
+    display:none;
+    margin-right: -50%;
+    transition-duration: .3s;
+    transform: translate(-50%, -50%) 
+}
+.slika:hover img
+{
+    transform: scale(1.2);
+    transition-duration: .3s;
+    filter: grayscale(50%);
+    opacity: .7;
+}
+.slika:hover span
+{
+    color:white;
+    display: block;
+    transition-duration: .3s;
+}
+@media only screen and (max-width: 900px) 
+{
+    .slika 
+    {
+        width: calc(50% - 6px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .slika 
+    {
+        width: 100%;
+    }
+}
+
+
+/*concerts.html*/
+table.koncerti
+{
+    width: 100%;
+    background-color: #333;
+}
+.tab_p
+{
+    width: 50%;
+}
+
+
+/*about.html*/
+div.about
+{
+    margin: 100px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif
+}
+div.about img
+{
+    border-radius: 10px;
+    height: 60%
+}
+b.pod
+{
+    font-size: 30px;
+}
+ul.pod
+{
+    font-size: 20px;
+    font-family: sans-serif
+}
