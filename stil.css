@@ -291,8 +291,8 @@ ul.pod
     font-size: 20px;
     font-family: sans-serif
 }
-.aboutslike
-{
-    height:300px;
-    width:auto;
+img.aboutslike
+{   
+    width:500px;
+    height:auto;
 }
