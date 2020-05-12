@@ -252,15 +252,14 @@ img.gal
 table.koncerti
 {   
     border-collapse: collapse;
-    padding: 10px;
     text-align: center;
     vertical-align: center;
-    border-spacing: 0px;
     width: 100%;
     background-color: #333;
 }
 table.koncerti th
 {
+  padding: 10px;
   border: 1px solid white;
 }
 .tab_p
