@@ -250,7 +250,10 @@ img.gal
 
 /*concerts.html*/
 table.koncerti
-{
+{   
+    border: 1px solid white;
+    padding: 10px;
+    border-spacing: 0px;
     width: 100%;
     background-color: #333;
 }
